@@ -1,0 +1,45 @@
+
+.experts h2 {
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+.specialists-and-directions {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.specialists-and-directions > div {
+    width: 289px;
+    height: 400px;
+    border-radius: 20px;
+    padding: 12px 13px 107px 12px;
+    text-align: center;
+}
+
+.experts .photo-container {
+    width: 264px;
+    height: 281px;
+    border-radius: 15px;
+    background-color: white;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.experts .photo-container img {
+    position: absolute;
+    bottom: 0;
+    right: -5px;
+}
+
+.cardiologist {
+    position: absolute;
+    right: 0;
+    left: -35px;
+}
+
+.experts p {
+    margin-top: 10px;
+    font-size: 16px;
+}

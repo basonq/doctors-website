@@ -1,0 +1,32 @@
+.saving-lives {
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.new-hospital {
+    width: 801px;
+    height: 81px;
+    margin-bottom: 10px;
+}
+
+.services .row {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.services .row > *{
+    width: 289px;
+    height: 111px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 27px 27px 27px 27px;
+}
+
+.services .row > * img{
+    width: 54px;
+    height: auto;
+    margin-left: 23px;
+}

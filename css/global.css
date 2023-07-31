@@ -1,0 +1,103 @@
+@font-face {
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 400;
+    src: url('../assets/fonts/manrope/regular/Manrope-Regular.ttf') format('ttf'),
+        url('../assets/fonts/manrope/regular/Manrope-Regular.woff') format('woff'),
+        url('../assets/fonts/manrope/regular/Manrope-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 700;
+    src: url('../assets/fonts/manrope/bold/Manrope-Bold.ttf') format('ttf'),
+        url('../assets/fonts/manrope/bold/Manrope-Bold.woff') format('woff'),
+        url('../assets/fonts/manrope/bold/Manrope-Bold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: "Tenor Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url('../assets/fonts/tenor-sans/regular/TenorSans-Regular.ttf') format('ttf'),
+        url('../assets/fonts/tenor-sans/regular/TenorSans-Regular.woff') format('woff'),
+        url('../assets/fonts/tenor-sans/regular/TenorSans-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 500;
+    src: url('../assets/fonts/manrope/medium/Manrope-Medium.ttf') format('ttf'),
+        url('../assets/fonts/manrope/medium/Manrope-Medium.woff') format('woff'),
+        url('../assets/fonts/manrope/medium/Manrope-Medium.woff2') format('woff2');
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    font-family: 'Manrope';  
+    font-size: 18px;
+}
+
+.wrapper {
+    width: 1216px;
+    margin: 0 auto;
+}
+
+h1 {
+    width: 530px;
+    height: 112px;
+    margin: 0;
+    font-family: 'Tenor Sans';  
+    font-size: 48px;
+    font-weight: 400;
+    color: #0D2B4B;
+}
+
+h2 {
+    margin: 0;
+    font-family: 'Tenor Sans';  
+    font-size: 40px;
+    font-weight: 400;
+    color: #0D2B4B;
+}
+
+h3 {
+    margin: 0;
+    font-family: 'Manrope';  
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.blue-block {
+    background-color: #EDF6FF;
+}
+
+.green-block {
+    background-color: #F0FFF6;
+}
+
+.yellow-block {
+    background-color: #FFFCDF;
+}
+
+.pink-block {
+    background-color: #FFEBEB;
+}
+
+.violet-block {
+    background-color: #F6EEFF;
+}
+
+footer .footer__list {
+    font-family: 'Manrope';  
+    font-weight: 500;
+    font-size: 16px;
+}

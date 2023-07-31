@@ -1,0 +1,10 @@
+.directions h2 {
+    margin-bottom: 50px;
+}
+
+.directions span {
+    font-weight: 500;
+    display: flex;
+    text-align: center;
+    margin-top: 26px;
+}

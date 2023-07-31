@@ -1,0 +1,44 @@
+.FAQ h2 {
+    margin-bottom: 30px;
+}
+
+.FAQ-block-two {
+    display: flex;
+    justify-content: space-between;
+}
+
+.FAQ-block > div {
+    width: 598px;
+    height: 64px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.FAQ .blue-block {
+    padding: 19px 20px 20px 25px;
+    overflow: hidden;
+    /* transition: all .2s ease-out; */
+}
+
+.FAQ img {
+  position: absolute;
+  right: 20px;
+  /* transform: rotate(180deg); */
+}
+
+.FAQ p {
+    width: 478px;
+    margin-top: 20px;
+}
+
+.FAQ-div__span {
+    width: 491px;
+    /* height: 48px; */
+    margin-top: 20px;
+}
+
+.FAQ__span {
+    font-family: 'Manrope';  
+    font-size: 16px;
+    font-weight: 500;
+}
